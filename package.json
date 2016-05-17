@@ -5,6 +5,7 @@
     "files": [
         "css/buttons.dataTables.css"
     ],
+    "style": "css/buttons.dataTables.css",
     "keywords": [
         "buttons",
         "excel",
