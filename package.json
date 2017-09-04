@@ -3,7 +3,7 @@
     "version": "1.4.1",
     "description": "Buttons for DataTables ",
     "files": [
-        "css/buttons.dataTables.css"
+        "css/**/*.css"
     ],
     "style": "css/buttons.dataTables.css",
     "keywords": [
