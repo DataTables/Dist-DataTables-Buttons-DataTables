@@ -226,6 +226,7 @@ div.dt-button-collection a.dt-button {
   position: relative;
   left: 0;
   right: 0;
+  width: 100%;
   display: block;
   float: none;
   margin-bottom: 4px;
