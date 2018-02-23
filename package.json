@@ -3,7 +3,8 @@
     "version": "1.5.1",
     "description": "Buttons for DataTables ",
     "files": [
-        "css/**/*.css"
+        "css/**/*.css",
+        "js/**/*.js"
     ],
     "style": "css/buttons.dataTables.css",
     "keywords": [
@@ -33,5 +34,6 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-Buttons-DataTables.git"
-    }
+    },
+    "main": "js/buttons.dataTables.js"
 }
