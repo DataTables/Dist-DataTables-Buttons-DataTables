@@ -97,6 +97,7 @@ a.dt-button {
   user-select: none;
   text-decoration: none;
   outline: none;
+  text-overflow: ellipsis;
 }
 button.dt-button.disabled,
 div.dt-button.disabled,
