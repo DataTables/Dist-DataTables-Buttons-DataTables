@@ -3,6 +3,7 @@
     "description": "Buttons for DataTables with styling for [DataTables](https://datatables.net/)",
     "main": "js/buttons.dataTables.js",
     "style": "css/buttons.dataTables.css",
+    "types": "./types/buttons.dataTables.d.ts",
     "version": "1.7.0",
     "files": [
         "css/**/*.css",
