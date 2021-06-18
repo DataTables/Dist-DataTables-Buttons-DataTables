@@ -11,21 +11,21 @@
     ],
     "keywords": [
         "Buttons",
-        "Column Visibility",
-        "csv",
-        "excel",
-        "pdf",
-        "print",
-        "Datatables",
+ "Column Visibility",
+ "csv",
+ "excel",
+ "pdf",
+ "print",
+                "Datatables",
         "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-dt": "^1.10.15",
-        "datatables.net-buttons": "1.7.1"
+        "datatables.net-buttons": ">=1.7.1",
+        "datatables.net-dt": ">=1.10.26-dev",
+        "jquery": ">=1.7"
     },
     "moduleType": [
         "globals",
