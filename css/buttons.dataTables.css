@@ -407,13 +407,16 @@ div.dt-button-collection.fixed .dt-button {
   margin-bottom: 0.333em !important;
 }
 div.dt-button-collection.fixed .dt-button:first-child {
-  margin-top: 4px;
+  margin-top: 0;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
 div.dt-button-collection.fixed .dt-button:last-child {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+}
+div.dt-button-collection.fixed.columns .dt-button:first-child {
+  margin-top: 4px;
 }
 div.dt-button-collection.fixed {
   position: fixed;
@@ -495,7 +498,7 @@ div.dt-button-collection.columns > :last-child {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  width: 818px;
+  width: 819px;
   padding-bottom: 1px;
 }
 div.dt-button-collection.columns > :last-child .dt-button {
@@ -503,7 +506,7 @@ div.dt-button-collection.columns > :last-child .dt-button {
 }
 @media screen and (max-width: 1024px) {
   div.dt-button-collection.columns > :last-child {
-    width: 614px;
+    width: 615px;
   }
 }
 @media screen and (max-width: 640px) {
