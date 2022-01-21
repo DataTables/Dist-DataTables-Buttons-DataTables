@@ -277,7 +277,6 @@ input.dt-button span.dt-down-arrow {
 }
 
 div.dt-buttons {
-  position: relative;
   float: left;
 }
 div.dt-buttons.buttons-right {
