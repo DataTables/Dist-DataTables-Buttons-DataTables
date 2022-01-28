@@ -143,14 +143,6 @@ input.dt-button {
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.1);
   /* Fallback */
-  background: -webkit-linear-gradient(top, rgba(230, 230, 230, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
-  /* Chrome 10+, Saf5.1+, iOS 5+ */
-  background: -moz-linear-gradient(top, rgba(230, 230, 230, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
-  /* FF3.6 */
-  background: -ms-linear-gradient(top, rgba(230, 230, 230, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
-  /* IE10 */
-  background: -o-linear-gradient(top, rgba(230, 230, 230, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
-  /* Opera 11.10+ */
   background: linear-gradient(to bottom, rgba(230, 230, 230, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr="rgba(230, 230, 230, 0.1)", EndColorStr="rgba(0, 0, 0, 0.1)");
   -webkit-user-select: none;
@@ -174,45 +166,23 @@ input.dt-button.disabled {
   cursor: default;
   opacity: 0.4;
 }
-button.dt-button:active:not(.disabled), button.dt-button.active:not(.disabled),
+button.dt-button:active:not(.disabled),
 div.dt-button:active:not(.disabled),
-div.dt-button.active:not(.disabled),
 a.dt-button:active:not(.disabled),
-a.dt-button.active:not(.disabled),
-input.dt-button:active:not(.disabled),
-input.dt-button.active:not(.disabled) {
+input.dt-button:active:not(.disabled) {
   background-color: rgba(0, 0, 0, 0.1);
   /* Fallback */
-  background: -webkit-linear-gradient(top, rgba(179, 179, 179, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
-  /* Chrome 10+, Saf5.1+, iOS 5+ */
-  background: -moz-linear-gradient(top, rgba(179, 179, 179, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
-  /* FF3.6 */
-  background: -ms-linear-gradient(top, rgba(179, 179, 179, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
-  /* IE10 */
-  background: -o-linear-gradient(top, rgba(179, 179, 179, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
-  /* Opera 11.10+ */
   background: linear-gradient(to bottom, rgba(179, 179, 179, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr="rgba(179, 179, 179, 0.1)", EndColorStr="rgba(0, 0, 0, 0.1)");
   box-shadow: inset 1px 1px 3px #999999;
 }
-button.dt-button:active:not(.disabled):hover:not(.disabled), button.dt-button.active:not(.disabled):hover:not(.disabled),
+button.dt-button:active:not(.disabled):hover:not(.disabled),
 div.dt-button:active:not(.disabled):hover:not(.disabled),
-div.dt-button.active:not(.disabled):hover:not(.disabled),
 a.dt-button:active:not(.disabled):hover:not(.disabled),
-a.dt-button.active:not(.disabled):hover:not(.disabled),
-input.dt-button:active:not(.disabled):hover:not(.disabled),
-input.dt-button.active:not(.disabled):hover:not(.disabled) {
+input.dt-button:active:not(.disabled):hover:not(.disabled) {
   box-shadow: inset 1px 1px 3px #999999;
   background-color: rgba(0, 0, 0, 0.1);
   /* Fallback */
-  background: -webkit-linear-gradient(top, rgba(128, 128, 128, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
-  /* Chrome 10+, Saf5.1+, iOS 5+ */
-  background: -moz-linear-gradient(top, rgba(128, 128, 128, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
-  /* FF3.6 */
-  background: -ms-linear-gradient(top, rgba(128, 128, 128, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
-  /* IE10 */
-  background: -o-linear-gradient(top, rgba(128, 128, 128, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
-  /* Opera 11.10+ */
   background: linear-gradient(to bottom, rgba(128, 128, 128, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr="rgba(128, 128, 128, 0.1)", EndColorStr="rgba(0, 0, 0, 0.1)");
 }
@@ -229,14 +199,6 @@ input.dt-button:hover:not(.disabled) {
   border: 1px solid #666;
   background-color: rgba(0, 0, 0, 0.1);
   /* Fallback */
-  background: -webkit-linear-gradient(top, rgba(153, 153, 153, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
-  /* Chrome 10+, Saf5.1+, iOS 5+ */
-  background: -moz-linear-gradient(top, rgba(153, 153, 153, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
-  /* FF3.6 */
-  background: -ms-linear-gradient(top, rgba(153, 153, 153, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
-  /* IE10 */
-  background: -o-linear-gradient(top, rgba(153, 153, 153, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
-  /* Opera 11.10+ */
   background: linear-gradient(to bottom, rgba(153, 153, 153, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr="rgba(153, 153, 153, 0.1)", EndColorStr="rgba(0, 0, 0, 0.1)");
 }
@@ -249,16 +211,14 @@ input.dt-button:focus:not(.disabled) {
   outline: none;
   background-color: #79ace9;
   /* Fallback */
-  background: -webkit-linear-gradient(top, #d1e2f7 0%, #79ace9 100%);
-  /* Chrome 10+, Saf5.1+, iOS 5+ */
-  background: -moz-linear-gradient(top, #d1e2f7 0%, #79ace9 100%);
-  /* FF3.6 */
-  background: -ms-linear-gradient(top, #d1e2f7 0%, #79ace9 100%);
-  /* IE10 */
-  background: -o-linear-gradient(top, #d1e2f7 0%, #79ace9 100%);
-  /* Opera 11.10+ */
   background: linear-gradient(to bottom, #d1e2f7 0%, #79ace9 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr="#d1e2f7", EndColorStr="#79ace9");
+}
+button.dt-button.active:focus:not(.disabled),
+div.dt-button.active:focus:not(.disabled),
+a.dt-button.active:focus:not(.disabled),
+input.dt-button.active:focus:not(.disabled) {
+  background: linear-gradient(to bottom, #d1e2f7 0%, #79ace9 100%) !important;
 }
 button.dt-button span.dt-down-arrow,
 div.dt-button span.dt-down-arrow,
@@ -329,14 +289,6 @@ div.dt-button-collection a.dt-button:active:not(.disabled),
 div.dt-button-collection a.dt-button.active:not(.disabled) {
   background-color: #dadada;
   /* Fallback */
-  background: -webkit-linear-gradient(top, #f0f0f0 0%, #dadada 100%);
-  /* Chrome 10+, Saf5.1+, iOS 5+ */
-  background: -moz-linear-gradient(top, #f0f0f0 0%, #dadada 100%);
-  /* FF3.6 */
-  background: -ms-linear-gradient(top, #f0f0f0 0%, #dadada 100%);
-  /* IE10 */
-  background: -o-linear-gradient(top, #f0f0f0 0%, #dadada 100%);
-  /* Opera 11.10+ */
   background: linear-gradient(to bottom, #f0f0f0 0%, #dadada 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr="#f0f0f0", EndColorStr="#dadada");
   box-shadow: inset 1px 1px 3px #666;
@@ -396,14 +348,6 @@ div.dt-button-collection div.dt-btn-split-wrapper:last-child button.dt-btn-split
 div.dt-button-collection div.dt-btn-split-wrapper:active:not(.disabled) button.dt-button, div.dt-button-collection div.dt-btn-split-wrapper.active:not(.disabled) button.dt-button {
   background-color: #dadada;
   /* Fallback */
-  background: -webkit-linear-gradient(top, #f0f0f0 0%, #dadada 100%);
-  /* Chrome 10+, Saf5.1+, iOS 5+ */
-  background: -moz-linear-gradient(top, #f0f0f0 0%, #dadada 100%);
-  /* FF3.6 */
-  background: -ms-linear-gradient(top, #f0f0f0 0%, #dadada 100%);
-  /* IE10 */
-  background: -o-linear-gradient(top, #f0f0f0 0%, #dadada 100%);
-  /* Opera 11.10+ */
   background: linear-gradient(to bottom, #f0f0f0 0%, #dadada 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr="#f0f0f0", EndColorStr="#dadada");
   box-shadow: inset 0px 0px 4px #666;
@@ -552,16 +496,6 @@ div.dt-button-background {
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
   /* Fallback */
-  background: -ms-radial-gradient(center, ellipse farthest-corner, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%);
-  /* IE10 Consumer Preview */
-  background: -moz-radial-gradient(center, ellipse farthest-corner, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%);
-  /* Firefox */
-  background: -o-radial-gradient(center, ellipse farthest-corner, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%);
-  /* Opera */
-  background: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, rgba(0, 0, 0, 0.3)), color-stop(1, rgba(0, 0, 0, 0.7)));
-  /* Webkit (Safari/Chrome 10) */
-  background: -webkit-radial-gradient(center, ellipse farthest-corner, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%);
-  /* Webkit (Chrome 11+) */
   background: radial-gradient(ellipse farthest-corner at center, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%);
   /* W3C Markup, IE10 Release Preview */
   z-index: 2001;
