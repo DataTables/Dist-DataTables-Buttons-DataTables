@@ -12,20 +12,20 @@
     ],
     "keywords": [
         "Buttons",
-        "Column Visibility",
-        "csv",
-        "excel",
-        "pdf",
-        "print",
-        "Datatables",
+ "Column Visibility",
+ "csv",
+ "excel",
+ "pdf",
+ "print",
+                "Datatables",
         "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "datatables.net-buttons": ">=2.0.1",
-        "datatables.net-dt": ">=1.11.3",
+        "datatables.net-buttons": ">=2.2.2",
+        "datatables.net-dt": ">=1.11.5",
         "jquery": ">=1.7"
     },
     "moduleType": [
