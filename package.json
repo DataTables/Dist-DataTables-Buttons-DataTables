@@ -2,12 +2,14 @@
     "name": "datatables.net-buttons-dt",
     "description": "Buttons for DataTables with styling for [DataTables](https://datatables.net/)",
     "main": "js/buttons.dataTables.js",
+    "module": "js/buttons.dataTables.mjs",
     "style": "css/buttons.dataTables.css",
     "types": "./types/buttons.dataTables.d.ts",
     "version": "2.2.3",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
