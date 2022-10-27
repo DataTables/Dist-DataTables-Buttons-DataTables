@@ -4,7 +4,7 @@
     "main": "js/buttons.dataTables.js",
     "module": "js/buttons.dataTables.mjs",
     "style": "css/buttons.dataTables.css",
-    "types": "./types/buttons.dataTables.d.ts",
+    "types": "./types/types.d.ts",
     "version": "2.2.3",
     "files": [
         "css/**/*.css",
