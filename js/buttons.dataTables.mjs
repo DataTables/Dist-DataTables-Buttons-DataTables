@@ -1,11 +1,10 @@
-
 /*! DataTables styling wrapper for Buttons
  * ©2018 SpryMedia Ltd - datatables.net/license
  */
 
 import $ from 'jquery';
 import DataTable from 'datatables.net-dt';
-import DataTable from 'datatables.net-buttons';
+import 'datatables.net-buttons';
 
 
 
