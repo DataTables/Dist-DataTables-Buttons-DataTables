@@ -7,7 +7,6 @@ import DataTable from 'datatables.net-dt';
 import Buttons from 'datatables.net-buttons';
 
 
-
 (function( factory ){
 	if ( typeof define === 'function' && define.amd ) {
 		// AMD
