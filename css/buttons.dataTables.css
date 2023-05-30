@@ -205,7 +205,7 @@ div.dataTables_layout_cell div.dt-buttons.buttons-right {
 .dt-button embed {
   outline: none;
 }
-.dt-button span.dt-down-arrow {
+.dt-button span.dt-button-down-arrow {
   position: relative;
   top: -2px;
   font-size: 10px;
@@ -214,19 +214,19 @@ div.dataTables_layout_cell div.dt-buttons.buttons-right {
   opacity: 0.6;
 }
 
-div.dt-btn-split-wrapper {
+div.dt-button-split {
   display: inline-block;
 }
-div.dt-btn-split-wrapper .dt-button:first-child {
+div.dt-button-split .dt-button:first-child {
   margin-right: 0;
   border-right: 1px solid rgba(0, 0, 0, 0.15);
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-div.dt-btn-split-wrapper .dt-button:first-child:hover {
+div.dt-button-split .dt-button:first-child:hover {
   border-right: 1px solid #666;
 }
-div.dt-btn-split-wrapper .dt-button:last-child {
+div.dt-button-split .dt-button:last-child {
   margin-left: -1px;
   padding-left: 0.75em;
   padding-right: 0.75em;
@@ -235,10 +235,10 @@ div.dt-btn-split-wrapper .dt-button:last-child {
   border-bottom-left-radius: 0;
   z-index: 2;
 }
-div.dt-btn-split-wrapper .dt-button:last-child:hover {
+div.dt-button-split .dt-button:last-child:hover {
   border-left: 1px solid #666;
 }
-div.dt-btn-split-wrapper .dt-button:last-child span {
+div.dt-button-split .dt-button:last-child span {
   padding-left: 0;
 }
 
@@ -258,29 +258,9 @@ div.dt-button-collection {
   box-shadow: 3px 4px 10px 1px rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
 }
-div.dt-button-collection div[role=menu] > .dt-button:first-child {
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
+div.dt-button-collection div[role=menu] > .dt-button:first-child,
+div.dt-button-collection div[role=menu] .dt-button-split:first-child {
   margin-top: 0;
-}
-div.dt-button-collection div[role=menu] > .dt-button:last-child {
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-}
-div.dt-button-collection div[role=menu] .dt-btn-split-wrapper:first-child {
-  margin-top: 0;
-}
-div.dt-button-collection div[role=menu] .dt-btn-split-wrapper:first-child button:first-child {
-  border-top-left-radius: 3px;
-}
-div.dt-button-collection div[role=menu] .dt-btn-split-wrapper:first-child button:last-child {
-  border-top-right-radius: 3px;
-}
-div.dt-button-collection div[role=menu] .dt-btn-split-wrapper:last-child button:first-child {
-  border-bottom-left-radius: 3px;
-}
-div.dt-button-collection div[role=menu] .dt-btn-split-wrapper:last-child button:last-child {
-  border-bottom-right-radius: 3px;
 }
 div.dt-button-collection .dt-button {
   position: relative;
@@ -298,7 +278,7 @@ div.dt-button-collection .dt-button:active:not(.disabled), div.dt-button-collect
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr="#f0f0f0", EndColorStr="#dadada");
   box-shadow: inset 1px 1px 3px #666;
 }
-div.dt-button-collection div.dt-btn-split-wrapper {
+div.dt-button-collection div.dt-button-split {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -307,7 +287,7 @@ div.dt-button-collection div.dt-btn-split-wrapper {
   align-items: stretch;
   margin: 4px 0 2px 0;
 }
-div.dt-button-collection div.dt-btn-split-wrapper button.dt-button {
+div.dt-button-collection div.dt-button-split button.dt-button {
   margin: 0;
   display: inline-block;
   width: 0;
@@ -315,7 +295,7 @@ div.dt-button-collection div.dt-btn-split-wrapper button.dt-button {
   flex-shrink: 0;
   flex-basis: 50px;
 }
-div.dt-button-collection div.dt-btn-split-wrapper button.dt-btn-split-drop {
+div.dt-button-collection div.dt-button-split button.dt-button-split-drop {
   min-width: 33px;
   flex: 0;
 }
@@ -513,13 +493,13 @@ html.dark .dt-button:hover:not(.disabled) {
 html.dark .dt-button:focus:not(.disabled) {
   outline: 2px solid #6ea8fe;
 }
-html.dark div.dt-btn-split-wrapper .dt-button:first-child {
+html.dark div.dt-button-split .dt-button:first-child {
   border-right: 1px solid rgba(255, 255, 255, 0.1);
 }
-html.dark div.dt-btn-split-wrapper .dt-button:first-child:hover {
+html.dark div.dt-button-split .dt-button:first-child:hover {
   border-right: 1px solid #595b5e;
 }
-html.dark div.dt-btn-split-wrapper .dt-button:last-child:hover {
+html.dark div.dt-button-split .dt-button:last-child:hover {
   border-left: 1px solid #595b5e;
 }
 html.dark div.dt-button-collection {
