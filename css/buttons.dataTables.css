@@ -48,9 +48,9 @@ div.dt-button-info {
   margin-left: -200px;
   background-color: white;
   border-radius: 0.75em;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+  box-shadow: 3px 4px 10px 1px rgba(0, 0, 0, 0.8);
   text-align: center;
-  z-index: 21;
+  z-index: 2003;
   overflow: hidden;
 }
 div.dt-button-info h2 {
@@ -564,7 +564,7 @@ html.dark div.dt-buttons > div.dt-button-split .dt-button:last-child:hover {
   border-left: 1px solid #595b5e;
 }
 html.dark div.dt-button-collection {
-  border: 1px solid #595b5e;
+  border: 1px solid rgba(255, 255, 255, 0.15);
   background-color: #212529;
   box-shadow: 3px 4px 10px 1px rgba(0, 0, 0, 0.8);
 }
