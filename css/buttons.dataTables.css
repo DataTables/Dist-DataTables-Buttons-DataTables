@@ -307,8 +307,10 @@ div.dt-button-collection .dt-button {
   left: 0;
   right: 0;
   width: 100%;
-  display: block;
+  display: flex;
   float: none;
+  justify-content: space-between;
+  align-items: center;
   background: none;
   margin: 0;
   padding: 0.5em 1em;
