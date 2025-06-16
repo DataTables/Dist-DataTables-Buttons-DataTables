@@ -327,6 +327,9 @@ div.dt-button-collection .dt-button:hover:not(.disabled) {
   background: rgba(153, 153, 153, 0.1);
   box-shadow: none;
 }
+div.dt-button-collection .dt-button:focus {
+  outline-offset: -2px;
+}
 div.dt-button-collection div.dt-button-split {
   display: flex;
   flex-direction: row;
