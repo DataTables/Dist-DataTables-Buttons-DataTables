@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-buttons-dt",
     "description": "Buttons for DataTables with styling for [DataTables](https://datatables.net/)",
-    "main": "js/buttons.dataTables.js",
-    "module": "js/buttons.dataTables.mjs",
-    "style": "css/buttons.dataTables.css",
+    "main": "./js/buttons.dataTables.js",
+    "module": "./js/buttons.dataTables.mjs",
+    "style": "./css/buttons.dataTables.css",
     "types": "./types/buttons.dataTables.d.ts",
     "version": "4.0.3",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "Buttons",
@@ -38,5 +37,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/Buttons.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/buttons.dataTables.d.ts",
+            "import": "./js/buttons.dataTables.mjs",
+            "default": "./js/buttons.dataTables.mjs",
+            "require": "./js/buttons.dataTables.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/buttons.dataTables.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }

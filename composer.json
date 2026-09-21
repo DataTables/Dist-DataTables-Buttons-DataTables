@@ -1,6 +1,6 @@
 {
     "name": "datatables.net/datatables.net-buttons-dt",
-    "description": "Buttons for DataTables with styling for [DataTables](https://datatables.net/)",
+    "description": "Buttons for DataTables with styling for DataTables",
     "support": {
         "forum": "https://datatables.net/forums",
         "source": "https://github.com/DataTables/Dist-DataTables-Buttons-DataTables"
