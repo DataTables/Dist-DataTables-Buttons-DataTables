@@ -1,4 +1,4 @@
-/*! Buttons default styling 4.1.0 for DataTables
+/*! Buttons default styling 4.1.1 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 import DataTable from"datatables.net-dt";import Buttons from"datatables.net-buttons";export default DataTable;
