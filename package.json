@@ -41,9 +41,10 @@
     "exports": {
         ".": {
             "types": "./types/buttons.dataTables.d.ts",
+            "style": "./css/buttons.dataTables.css",
             "import": "./js/buttons.dataTables.mjs",
-            "default": "./js/buttons.dataTables.mjs",
-            "require": "./js/buttons.dataTables.js"
+            "require": "./js/buttons.dataTables.js",
+            "default": "./js/buttons.dataTables.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
